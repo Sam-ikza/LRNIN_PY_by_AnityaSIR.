@@ -61,3 +61,4 @@ def cpmlx_cal():
 
 
 print(cpmlx_cal())
+print(cpmlx_cal())
