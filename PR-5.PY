@@ -44,6 +44,14 @@ def cpmlx_cal():
     try:
         return None
 
+def safe_int():
+    try:
+        return int(input("Enter an integer: "))
+    except ValueError:
+        print("Error: please enter a valid integer.")
+        return None
+
+
 print(safe_int())
 # A ValueError is raised when a function receives an argument of the correct type but an incorrect value.
 # Think of it like ordering coffee — the cup is the right type, but you asked for something impossible inside it.
